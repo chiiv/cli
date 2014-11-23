@@ -1,0 +1,25 @@
+{
+	"name": "chiiv-cli",
+	"description": "Command-line interface for Chiiv",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://chiiv.com",
+	"keywords": ["chiiv", "crud", "cli", "json"],
+	"repository": {
+	"type": "git",
+		"url": "git://github.com/chiiv/cli.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": {
+		"chiiv": "bin/chiiv"
+	},
+	"dependencies": {
+		"commander": "2.1.0",
+		"chiiv": "*",
+		"prompt": "0.2.12"
+	}
+}

@@ -6,7 +6,7 @@ A utility app to perform API requests to a remote Chiiv service using a command-
 
 Using npm:
 ```
-npm install chiiv-cli
+npm install -g chiiv-cli
 ```
 
 ## Credits
